@@ -1,1 +1,3 @@
-olá sou o Guilherme
+olá sou o Guilherme.
+
+Estou treinando Git e Github
