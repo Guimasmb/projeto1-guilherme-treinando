@@ -1,3 +1,28 @@
-olá sou o Guilherme.
 
-Estou treinando Git e Github
+Passo a passo básico do Git
+1 - git init
+Inicializa um novo repositório Git na pasta atual. Use quando começar um projeto novo localmente.
+
+2 - git status
+Mostra o status dos arquivos: quais foram modificados, quais estão prontos para commit (staged) e quais não estão.
+
+3 - git add <arquivo>
+Adiciona um arquivo específico para a área de stage (pronto para o próximo commit). Exemplo: git add meu_arquivo.txt
+
+4 - git add .
+Adiciona todos os arquivos modificados e novos na pasta atual para o stage.
+
+5 - git commit -m "mensagem"
+Cria um commit com a mensagem que explica as mudanças feitas. Exemplo: git commit -m "corrige bug na função X"
+
+6 - git remote add origin <URL-do-repositório>
+Conecta seu repositório local a um repositório remoto no GitHub (faça isso só uma vez no projeto).
+
+7 - git push --set-upstream origin main
+Envia seus commits para o GitHub e configura a branch local para acompanhar a branch remota main (faça isso uma vez).
+
+8 - git push
+Depois de configurado, envia seus commits para o GitHub.
+
+9 - git pull
+Atualiza seu repositório local com as mudanças que estiverem no GitHub (importante para sincronizar).
